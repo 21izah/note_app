@@ -1,0 +1,45 @@
+.containerHeading {
+  color: blue;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 35px;
+}
+.containerHeading2 {
+  color: aqua;
+  text-align: center;
+}
+
+.app {
+  display: grid;
+  margin: 10px;
+  grid-template-columns: repeat(auto-fill, 300px);
+  gap: 20px;
+  justify-content: center;
+}
+
+.note {
+  padding: 20px;
+  border-radius: 10px;
+  resize: none;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+.note::placeholder {
+  opacity: 30%;
+}
+.note:hover,
+.note:focus {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+body {
+  background-color: cadetblue;
+}
+.btn {
+  border-radius: 10px;
+  border: none;
+  height: 200px;
+}
+.btn:hover {
+  cursor: pointer;
+}
